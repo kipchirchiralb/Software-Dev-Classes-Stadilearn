@@ -1,0 +1,21 @@
+h1 {
+  color: green;
+}
+
+p {
+  text-decoration: underline;
+}
+
+/* class selector */
+
+.high {
+  /* styles for elements that belong to class high */
+  background-color: red;
+}
+
+/* id selector */
+#huge {
+  font-size: 40px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
