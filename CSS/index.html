@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to CSS</title>
+  </head>
+  <body>
+    <h1 id="jfhs">Intro to CSS</h1>
+    <p>
+      CSS - Cascading style shee t - is a language used to enhance appearance of
+      a web page(written in html)
+    </p>
+    <h2>How do we wrtie CSS (Language rules / Syntax)</h2>
+    <pre>
+      selector {
+        property: value;
+        property: value;
+        property: value;
+      }
+    </pre>
+    <ul>
+      <li>
+        selector - used to identify an element or a group of elements that you
+        want to style
+      </li>
+      <li>
+        {} - a declaration block - used to group styles to be applied on the
+        selected element
+      </li>
+      <li>
+        Property - the attribute you are interested in changing about an element
+        e.g. background color, text size, spacing...
+      </li>
+      <li>Value - the unit/actual description of a certain property</li>
+    </ul>
+
+    <h2 style="color: darkblue">
+      Where we put our CSS - Inline || Internal || External
+    </h2>
+    <ul>
+      <li>
+        Inline CSS - we write styles for individual elements using the style
+        attribute
+      </li>
+      <li>
+        Internal CSS - we write styles in a style element(like below)- the
+        styles can only apply to this(current) html page
+      </li>
+      <li>
+        External CSS(Recommended) - writing css in an a .css file that can be
+        linked to many html pages. Allows max resuable code.
+      </li>
+    </ul>
+    <style>
+      h1 {
+        text-decoration: underline;
+      }
+      h2 {
+        color: red;
+        font-style: italic;
+        font-size: 60px;
+        background-color: green;
+      }
+      ul {
+        background-color: brown;
+      }
+    </style>
+  </body>
+</html>
