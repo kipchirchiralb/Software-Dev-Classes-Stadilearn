@@ -8,6 +8,18 @@ h1 {
   text-decoration: line-through;
 }
 
-p {
+#nav section #cta p .span {
   text-align: right;
 }
+#nav section p .span {
+  text-align: right;
+}
+
+/* 100 + 1 + 100 + 1 + 10 === 212  */
+/* 100 + 1  + 1 + 10 === 112  */
+
+*{
+  
+}
+
+/* 200 */
